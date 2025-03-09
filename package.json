@@ -15,13 +15,11 @@
     "device-brightness",
     "brightness"
   ],
-  "author": "Adrian So <adrian@sld.co.nz> (https://github.com/saonv)",
+  "author": "SaoNV <saonv.bkrd@gmail.com> (https://github.com/saonv)",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "postinstall": "tsc",
-    "prepublish": "tsc",
     "lint": "eslint '**/*.{ts,tsx}'"
   },
   "devDependencies": {
